@@ -1,0 +1,77 @@
+{
+    "success": true,
+    "anuncios": [
+    {
+    "tags": [
+    "motor"
+    ],
+    "_id": "5d470462326a1deb09025b4e",
+    "nombre": "Audi",
+    "venta": true,
+    "photo": "audi.jpg",
+    "precio": 1500
+    },
+    {
+    "tags": [
+    "motor"
+    ],
+    "_id": "5d47049d326a1deb09025b4f",
+    "nombre": "Tesla",
+    "venta": true,
+    "photo": "tesla.jpg",
+    "precio": 22500
+    },
+    {
+    "tags": [
+    "mobile"
+    ],
+    "_id": "5d4705c6326a1deb09025b50",
+    "nombre": "Iphone",
+    "venta": false,
+    "photo": "iphone.jpg",
+    "precio": 300
+    },
+    {
+    "tags": [
+    "mobile"
+    ],
+    "_id": "5d4705fa326a1deb09025b51",
+    "nombre": "Xiaomi",
+    "venta": true,
+    "photo": "xiaomi.jpg",
+    "precio": 150
+    },
+    {
+    "tags": [
+    "lifestyle"
+    ],
+    "_id": "5d470abf326a1deb09025b52",
+    "nombre": "Patinete",
+    "venta": true,
+    "photo": "patinete",
+    "precio": 47
+    },
+    {
+    "tags": [
+    "motor"
+    ],
+    "_id": "5d471f80aba4053d2ddeef5d",
+    "nombre": "Citroen",
+    "venta": false,
+    "precio": 2500,
+    "photo": "ford.jpg",
+    "__v": 0
+    },
+    {
+    "tags": [
+    "motor"
+    ],
+    "_id": "5d47288592b4363ddd802a7c",
+    "nombre": "Ford",
+    "venta": false,
+    "precio": 5000,
+    "photo": "ford.jpg",
+    "__v": 0
+    }
+    ]
+    }
