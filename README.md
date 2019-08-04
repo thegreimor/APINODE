@@ -1,18 +1,30 @@
-# APINODE
+# APINODE - NODEPOP
 
-## Requirements
+## Requerimientos
 
 * MongoDB (./bin/mongod --dbpath ./data/db --directoryperdb)
 
-## API Methods
+## Lista de anuncios en JSON mediante API
 
-## Agents list
+http://localhost:3000/apiv1/anuncios
 
-http://localhost:3000/apiv1/agentes
+## Lista de anuncios version HTML
 
+http://localhost:3000/
 
-# BD Mongo commands
-***Motor***
-db.anuncios.insert({ nombre: 'Tesla', venta: true, photo: 'tesla.jpg', precio: 22500, tags: [ 'motor']})
-***Mobile***
-db.anuncios.insert({ nombre: 'Xiaomi', venta: true, photo: 'xiaomi.jpg', precio: 150, tags: [ 'mobile']})
+## Formatos de busqueda GET desde la API
+
+- skip: para paginacion
+    Ej: anuncios?skip=5
+
+- precio: para buscar un precio.
+    Ej: anuncios?precio=300
+
+- precio: para buscar en un rango de precio.
+    Ej: anuncios?precio=300-2000
+
+- Filtros: para buscar datos concretos.
+    Ej: anuncios?nombre=Audio
+    Ej2: anuncios?venta=false (o true)
+    Ej3: anuncios?tags=motor
+
