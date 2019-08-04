@@ -48,7 +48,7 @@
     "_id": "5d470abf326a1deb09025b52",
     "nombre": "Patinete",
     "venta": true,
-    "photo": "patinete",
+    "photo": "patinete.jpg",
     "precio": 47
     },
     {
@@ -59,7 +59,7 @@
     "nombre": "Citroen",
     "venta": false,
     "precio": 2500,
-    "photo": "ford.jpg",
+    "photo": "citroen.jpg",
     "__v": 0
     },
     {
