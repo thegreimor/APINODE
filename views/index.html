@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>NODEPOP: </h1>
+  
+    <% anuncios.forEach( anuncio => { %>
+
+      <p><% if (anuncio.venta == true) { %>
+        <b>Estado: </b>se vende</p>
+
+    <% } else { %>
+
+    <p> <b>Estado:</b> se busca </p>
+    <% } %>
+  
+      <b><p>Nombre del articulo: </b><%= anuncio.nombre %></p>
+
+        
+        <p><b>Precio: </b><%= anuncio.precio %>€</p>
+        <p><b>Foto del producto:</b></p>
+    <img src="/images/<%=anuncio.photo%>">
+    <p><b>Tags: </b><%= anuncio.tags %></p>
+    <p>.......</p>
+  <% }) %>
+  </body>
+</html>
