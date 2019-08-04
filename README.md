@@ -28,3 +28,6 @@ http://localhost:3000/
     Ej2: anuncios?venta=false (o true)
     Ej3: anuncios?tags=motor
 
+## Limpiar y reiniciar Base de Datos
+
+npm InitDB
